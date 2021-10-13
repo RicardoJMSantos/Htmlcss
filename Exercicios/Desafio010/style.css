@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #AAB9CF;
+    color: #212227;
+    
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 1.5em;
+
+}
+header{
+    background-color: #314056;
+    min-width: 320px;
+    max-width: 1080px;
+    margin: auto;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+   
+
+}
+header > h1 {
+    font-family:'Work Sans', sans-serif;
+    font-size: 45px;
+    color: #F56960;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.24);
+    text-shadow: 1px 1px px #b850499d;
+    margin-right: 2%;
+    margin-left: 2%;
+    text-align: center;
+    margin-top: 15px;
+
+}
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 1080px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+}
+
+h2 {
+    
+    text-shadow: 1px 1px px #b99a6bab;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.205);
+
+  
+
+}
+
+nav{
+    font-size: 17px;
+    font-style: normal;
+    margin-top: 25px;
+    margin-right: 2%;
+    margin-left: 2%;
+    text-align: center;
+
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding-right: 3px;
+}
+nav > a:hover {
+    text-decoration: none;
+    color:#F56960;
+    background-color:#f56a602a ;
+    border-radius: 2px 2px 2px 2px;
+
+}
+
+section {
+    background-color:#F56960 ;
+    min-width: 320px;
+    max-width: 1080px;
+}
+div.p{
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+div.video{
+    position: relative;
+    padding-bottom: 45%;
+    top: 5%;
+    left: 5%;
+}
+
+div.video > iframe {
+      position: absolute  ;
+      width: 90%;
+      height: 90%;
+}
+
+
